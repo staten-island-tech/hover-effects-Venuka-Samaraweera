@@ -1,6 +1,6 @@
 html,
 body {
-  font-size: 60%;
+  font-size: 62.5%;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 
 html,
 body {
-  font-size: 60%;
+  font-size: 62.5%;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -21,24 +21,19 @@ body {
 .button:visited {
   text-transform: uppercase;
   text-decoration: none;
+  padding: 2rem 4rem;
 }
 
 .container {
-  width: 80%;
-  margin: 2rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
