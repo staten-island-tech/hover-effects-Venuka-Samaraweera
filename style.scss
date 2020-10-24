@@ -2,5 +2,10 @@
 @import "_button.scss";
 
 .container {
-    
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
