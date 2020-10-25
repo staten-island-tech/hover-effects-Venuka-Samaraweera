@@ -1,27 +1,70 @@
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .button,
 .button:link,
 .button:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 2rem 4rem;
+  border-radius: 4rem;
+  margin: 1rem auto;
+  font-size: 2.3rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  position: relative;
+}
+
+.button-blue {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.button-blue::after {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 9px 0.5rem rgba(0, 0, 0, 0.8);
+          box-shadow: 0 9px 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 12rem;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover::after {
+  -webkit-transform: scaleX(1.2) scaleY(1.3);
+          transform: scaleX(1.2) scaleY(1.3);
+  opacity: 0;
+}
+
+.button:active {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
@@ -32,8 +75,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
