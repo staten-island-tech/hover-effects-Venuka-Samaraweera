@@ -59,13 +59,37 @@
 }
 
 .lion {
-  height: 30rem;
-  width: 60rem;
+  height: 15rem;
+  width: 30rem;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   border-radius: 20rem;
   margin: auto;
   padding: 6rem;
+}
+
+.lion:hover {
+  border-radius: 0;
+  -webkit-transform: scaleX(1.4) scaleY(1.4);
+          transform: scaleX(1.4) scaleY(1.4);
+  -webkit-filter: grayscale(115%);
+          filter: grayscale(115%);
+}
+
+.text-effect {
+  background-image: url("/Images/rainbow-sq.jpg");
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 6rem;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.text-effect:hover {
+  -webkit-transform: skewY(15deg);
+          transform: skewY(15deg);
+  letter-spacing: 1.5rem;
 }
 
 html,

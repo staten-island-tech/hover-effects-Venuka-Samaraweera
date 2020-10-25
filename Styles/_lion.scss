@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+.lion {
+  height: 15rem;
+  width: 30rem;
+  transition: all 0.7s;
+  border-radius: 20rem;
+  margin: auto;
+  padding: 6rem;
+}
+
+.lion:hover {
+  border-radius: 0;
+  transform: scaleX(1.4) scaleY(1.4);
+  filter: grayscale(115%);
+}
