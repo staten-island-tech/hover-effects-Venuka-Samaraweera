@@ -92,6 +92,70 @@
   letter-spacing: 1.5rem;
 }
 
+.console-parent {
+  width: 60rem;
+  height: 40rem;
+  padding-top: 6rem;
+  margin: auto;
+}
+
+.gaming-gallery {
+  margin: 3rem;
+  position: relative;
+}
+
+.console-wars {
+  position: absolute;
+  height: 18rem;
+  width: 30rem;
+  -webkit-box-shadow: 0 1.4rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.4rem 1rem rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.console-wars:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-box-shadow: 0 7rem 7rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 7rem 7rem rgba(0, 0, 0, 0.4);
+  outline-offset: 1rem;
+  z-index: 2;
+}
+
+.console-wars-ps5:hover {
+  outline: 0.7rem solid blue;
+}
+
+.console-wars-xbox:hover {
+  outline: 0.7rem solid green;
+}
+
+.console-wars-pc:hover {
+  outline: 0.7rem solid grey;
+}
+
+.gaming-gallery:hover .console-wars:not(:hover) {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 0.5;
+}
+
+.console-wars-ps5 {
+  top: 18rem;
+  left: 20%;
+}
+
+.console-wars-xbox {
+  top: -2rem;
+  right: 0;
+}
+
+.console-wars-pc {
+  top: 3rem;
+  left: 0;
+}
+
 html,
 body {
   font-size: 62.5%;
@@ -112,5 +176,6 @@ body {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 @import "_lion.scss";
 @import "_text-effect.scss";
 @import "_consoles.scss";
+@import "_Ceylon.scss";
 html,
 body {
   font-size: 62.5%;
@@ -17,4 +18,5 @@ body {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
+  margin: auto;
 }
