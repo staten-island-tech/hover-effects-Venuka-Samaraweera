@@ -156,6 +156,44 @@
   left: 0;
 }
 
+.Ceylon {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  padding-top: 6rem;
+  padding-bottom: 20rem;
+  margin: auto;
+  padding-right: 25rem;
+}
+
+.Ceylon-picture {
+  height: 25rem;
+  width: 45rem;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.Ceylon-header {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Ceylon:hover .Ceylon-header {
+  opacity: 1;
+  top: 50%;
+}
+
 html,
 body {
   font-size: 62.5%;
