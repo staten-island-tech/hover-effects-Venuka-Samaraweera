@@ -58,6 +58,16 @@
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+.lion {
+  height: 30rem;
+  width: 60rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  border-radius: 20rem;
+  margin: auto;
+  padding: 6rem;
+}
+
 html,
 body {
   font-size: 62.5%;
