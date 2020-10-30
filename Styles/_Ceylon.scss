@@ -20,7 +20,6 @@
 .Ceylon-header {
   font-size: 4rem;
   text-transform: uppercase;
-  color: $white;
   position: absolute;
   transition: all 0.5s;
   opacity: 0;
@@ -32,4 +31,8 @@
 .Ceylon:hover .Ceylon-header {
   opacity: 1;
   top: 50%;
+}
+
+.Ceylon:hover .Ceylon-picture {
+  filter: blur(250%);
 }
