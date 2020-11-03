@@ -9,6 +9,5 @@
   transition: all 0.6s;
 }
 .text-effect:hover {
-  transform: skewY(15deg);
-  letter-spacing: 1.5rem;
+  transform: translate(5rem, 0);
 }

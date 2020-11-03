@@ -11,6 +11,6 @@
 
 .lion:hover {
   border-radius: 0;
-  transform: scaleX(1.4) scaleY(1.4);
-  filter: grayscale(115%);
+  transform: scaleX(0.7) scaleY(0.7);
+  filter: blur(200%);
 }
